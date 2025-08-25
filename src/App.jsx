@@ -9,9 +9,11 @@ class App extends Component {
     this.getResponse = this.getResponse.bind(this);
   }
 
-  add(){
-    callApi("GET", BASEURL + `add/${this.state.A}/${this.state.B}`, "", this.getResponse);
-  }
+  add() {
+    // Only pass the relative path; callApi will prepend BASEURL
+    callApi("GET", `add/${this.state.A}/${this.state.B}`, null, this.getResponse);
+}
+
 
   getResponse(res){
     this.setState({RES: res});
