@@ -88,8 +88,8 @@ button:hover {
 footer {
   position: fixed;
   bottom: 0;
-  width: 55%;
-  height: 40px;
+  width: 54%;
+  height: 30px;
   background: #222;
   color: white;
   display: flex;
