@@ -11,7 +11,7 @@ class App extends Component {
 
   add() {
     // Only pass the relative path; callApi will prepend BASEURL
-    callApi("GET", `add/${this.state.A}/${this.state.B}`, null, this.getResponse);
+    callApi("GET", BASEURL + `add/${this.state.A}/${this.state.B}`, "", this.getResponse);
 }
 
 
