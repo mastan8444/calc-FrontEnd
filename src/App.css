@@ -12,7 +12,7 @@ footer{
   height: 30px;
   line-height: 30px;
   font-size: 8pt;
-  background: lightseagreen;
+  background: red;
   color: white;
 }
 section{
@@ -35,11 +35,12 @@ input, label{
 }
 
 button{
-  background: green;
+  background: blue;
   color: white;
   font-weight: bold;
-  width: 70px;
+  width: 100px;
   height: 30px;
   border-radius: 5px;
+  text-align: center;
 }
 
