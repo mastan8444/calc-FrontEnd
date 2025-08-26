@@ -88,12 +88,12 @@ button:hover {
 footer {
   position: fixed;
   bottom: 0;
-  width: 50%;
+  width: 60%;
   height: 40px;
   background: #222;
   color: white;
-  display: static;
-  justify-content: left;  /* horizontal center */
+  display: flex;
+  justify-content: center;  /* horizontal center */
   align-items: center;      /* vertical center */
   font-size: 12pt;
   letter-spacing: 1px;
